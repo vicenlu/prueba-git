@@ -12,11 +12,6 @@ function addTodo() {
     const itemall = document.createElement('div')
     itemall.classList.add('itemall')
 
-    const item = document.createElement('p')
-    item.classList.add('item')
-    item.innerText = inputtdl.value
-    itemall.appendChild(item)
-
     if (inputtdl.value === '') return
 
     const checkbutton = document.createElement("button")
